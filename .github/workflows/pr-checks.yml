@@ -1,0 +1,33 @@
+name: PR Checks
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.x'
+        channel: 'stable'
+    
+    - name: Install dependencies
+      run: |
+        cd src/tuqyyem
+        flutter pub get
+    
+    - name: Analyze code
+      run: |
+        cd src/tuqyyem
+        flutter analyze
+    
+    - name: Run tests
+      run: |
+        cd src/tuqyyem
+        flutter test
