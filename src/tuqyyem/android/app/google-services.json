@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "40430823229",
+    "project_id": "tuqayyem",
+    "storage_bucket": "tuqayyem.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40430823229:android:94347ec8ae80497cc20754",
+        "android_client_info": {
+          "package_name": "com.buamod.tuqayyem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa95FxUJKabVoSoc4Ysn2a_oLa9X-bTEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
