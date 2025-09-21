@@ -18,10 +18,11 @@
 
 ## Phase 3.1: Setup
 - [x] T001 Create Flutter project "tuqyyem" in `src/`
-- [~] T002 Setup repo for Trunk-Based Development (main branch, PR rules)
-- [ ] T003 [P] Setup CI/CD pipeline with GitHub Actions (`.github/workflows/ci.yml`)
-- [ ] T004 [P] Configure Firebase project for Android/iOS (`src/firebase/`)
-- [ ] T005 [P] Apply code style (dart format, lint rules)
+- [x] T002 Setup initial repo structure with main branch and CI workflow
+- [x] T003 [P] Configure Firebase project for Android/iOS (`src/firebase/`)
+- [x] T004 [P] Apply code style (dart format, lint rules)
+- [ ] T005 Configure GitHub branch protection rules for Trunk-Based Development
+- [ ] T006 Setup CI/CD pipeline with GitHub Actions
 
 ## Phase 3.2: Tests First (TDD) ⚠️ MUST COMPLETE BEFORE 3.3
 - [ ] T006 [P] Write widget tests for Landing page (`tests/widget/landing_test.dart`)
@@ -45,10 +46,11 @@
 - [ ] T018 [P] Update docs/README.md with setup and usage instructions
 
 ## Dependencies
-- Setup (T001-T005) before tests (T006-T008)
-- Tests (T006-T008) before implementation (T009-T011)
-- MVP v2 (T012-T015) after MVP v1 (T009-T011)
-- General/polish (T016-T018) after all features
+- Setup (T001-T005) before tests (T007-T009)
+- Tests (T007-T009) before implementation (T010-T012)
+- MVP v2 (T013-T016) after MVP v1 (T010-T012)
+- General/polish (T017-T019) after all features
+- T006 (GitHub settings) after MVP v1 implementation
 
 ## Parallel Example
 ```
