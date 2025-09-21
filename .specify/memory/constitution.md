@@ -35,7 +35,7 @@ MINOR: New principle/section added or materially expanded guidance.
 PATCH: Clarifications, wording, typo fixes, non-semantic refinements.
 Compliance reviews are conducted at each release and before major merges.
 TODO(RATIFICATION_DATE): Original adoption date required.
-Version: 2.2.0 | Ratified: TODO(RATIFICATION_DATE) | Last Amended: 2025-09-20
+**Version**: 0.0.1 | **Ratified**: 2025-09-20 | **Last Amended**: 2025-09-20
 
 Summary:
 
